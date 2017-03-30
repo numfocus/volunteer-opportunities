@@ -1,5 +1,5 @@
-PyTables projects seeking volunteer contributors 
-================================================
+PyTables seeks volunteer contributors for 2 projects
+====================================================
 
 **Add h5py as a backend to PyTables**
 ——————————————————
