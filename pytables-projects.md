@@ -15,8 +15,6 @@ https://github.com/PyTables/PyTables/blob/pt4/doc/New-Backend-Interface.rst
 The idea is to continue the job done till now and release an alpha release with the basic Table, CArray, EArray and VLarray objects working, and hope to get some traction for promptly releasing a stable version unifying the best of PyTables and h5py packages.
 
 
-
-
 **2) Implement column-wise tables in PyTables**  
 —————————————————————————————
 
@@ -30,3 +28,32 @@ https://github.com/PyTables/proposal/blob/master/column-wise-pytables.rst
 
 Many areas would benefit from this, but especially the @pandas-dev community because this should allow to represent DataFrames on disk that are closer to its representation in memory, opening the door to a more faithful disk-mapped representation of the DataFrame. Also, column-wise tables can find a good niche in the financial world, where access to columns is many times preferred (because of efficiency reasons) than access to whole rows.
 
+
+Getting started with PyTables and h5py
+--------------------------------------
+
+The recommended way to learn the basic features of PyTables is by reading the tutorial chapter in User's Guide:
+
+http://www.pytables.org/usersguide/tutorials.html
+
+And the same for h5py:
+
+http://docs.h5py.org/en/latest/quick.html
+
+And the h5py book is also worth to check because it introduces the reader to a deeper understanding of the HDF5 format:
+
+http://shop.oreilly.com/product/0636920030249.do
+
+
+Getting in contact with users and developers
+--------------------------------------------
+
+There are different mailing lists about PyTables and h5py where questions about the packages are welcome:
+
+PyTables users: https://groups.google.com/forum/#!forum/pytables-users
+PyTables developers: https://groups.google.com/forum/#!forum/pytables-dev
+h5py users: https://groups.google.com/forum/#!forum/h5py
+
+In case anybody gets a grant to conduct any of the proposed projects Francesc Alted volunteers up to a couple of hours a week to guide her throughout the process.  He can be contacted at faltet@hdfgroup.org.
+
+If you have used HDF5 with Python and want to contribute to a stronger, tighter integration, please apply and good luck!
