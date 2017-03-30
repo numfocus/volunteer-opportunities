@@ -32,7 +32,7 @@ Many areas would benefit from this, but especially the @pandas-dev community bec
 Getting started with PyTables and h5py
 --------------------------------------
 
-The recommended way to learn the basic features of PyTables is by reading the tutorial chapter in User's Guide:
+The recommended way to learn the basic features of PyTables is by reading the tutorial chapter in the User's Guide:
 
 http://www.pytables.org/usersguide/tutorials.html
 
@@ -40,7 +40,7 @@ And the same for h5py:
 
 http://docs.h5py.org/en/latest/quick.html
 
-And the h5py book is also worth to check because it introduces the reader to a deeper understanding of the HDF5 format:
+The h5py book is also worth checking out because it introduces the reader to a deeper understanding of the HDF5 format:
 
 http://shop.oreilly.com/product/0636920030249.do
 
@@ -54,6 +54,6 @@ PyTables users: https://groups.google.com/forum/#!forum/pytables-users
 PyTables developers: https://groups.google.com/forum/#!forum/pytables-dev
 h5py users: https://groups.google.com/forum/#!forum/h5py
 
-In case anybody gets a grant to conduct any of the proposed projects Francesc Alted volunteers up to a couple of hours a week to guide her throughout the process.  He can be contacted at faltet@hdfgroup.org.
+If anyone happens to receive a grant to conduct any of the proposed projects, Francesc Alted can volunteer up to a couple of hours a week to guide her throughout the process.  He can be contacted at faltet@hdfgroup.org.
 
-If you have used HDF5 with Python and want to contribute to a stronger, tighter integration, please apply and good luck!
+If you have used HDF5 with Python and want to contribute to a stronger, tighter integration, please reach out!
