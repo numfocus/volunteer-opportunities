@@ -1,4 +1,4 @@
-@PyTables seeks volunteer contributors for 2 projects
+[PyTables](https://github.com/PyTables) seeks volunteer contributors for 2 projects
 ====================================================
 
 **1) Add h5py as a backend to PyTables**  
